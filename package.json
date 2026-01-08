@@ -1,0 +1,22 @@
+{
+	"name": "waf-mcp-server",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"agents": "^0.3.1",
+		"zod": "^4.2.1"
+	},
+	"devDependencies": {
+		"@types/node": "^25.0.3",
+		"prettier": "^3.7.4",
+		"typescript": "5.9.3",
+		"wrangler": "^4.54.0"
+	}
+}
