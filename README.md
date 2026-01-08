@@ -71,8 +71,8 @@ This project demonstrates how to build MCP servers that give AI assistants secur
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/gryczka/waf-mcp-server.git
-cd waf-mcp-server
+git clone https://github.com/Gryczka/cloudflare-basic-waf-mcp-sample.git
+cd cloudflare-basic-waf-mcp-sample
 npm install
 ```
 
@@ -266,7 +266,7 @@ Shall I implement any of these mitigations?
 ## Project Structure
 
 ```
-waf-mcp-server/
+cloudflare-basic-waf-mcp-sample/
 ├── src/
 │   ├── index.ts              # Entry point, routing, Durable Object definition
 │   ├── cloudflare-api.ts     # Cloudflare API client (REST + GraphQL)
@@ -280,15 +280,12 @@ waf-mcp-server/
 │   └── resources/
 │       └── index.ts          # MCP resources for context
 ├── docs/
-│   ├── architecture.md       # Detailed architecture documentation
 │   └── use-cases.md          # Real-world usage examples
 ├── .github/
-│   ├── workflows/ci.yml      # GitHub Actions CI
-│   └── ISSUE_TEMPLATE/       # Issue templates
+│   └── workflows/ci.yml      # GitHub Actions CI
 ├── wrangler.jsonc            # Cloudflare Workers configuration
 ├── tsconfig.json             # TypeScript configuration
-├── CONTRIBUTING.md           # Contribution guidelines
-├── LICENSE                   # Apache 2.0 license
+├── LICENSE                   # MIT license
 └── package.json
 ```
 

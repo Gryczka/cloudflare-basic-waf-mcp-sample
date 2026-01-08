@@ -205,7 +205,7 @@ export default {
 		<li><strong>suggest_rule_from_events</strong> - AI-powered rule suggestions from attack patterns</li>
 	</ul>
 
-	<p><a href="https://github.com/gryczka/waf-mcp-server">Documentation</a></p>
+	<p><a href="https://github.com/Gryczka/cloudflare-basic-waf-mcp-sample">Documentation</a></p>
 </body>
 </html>
 				`,
